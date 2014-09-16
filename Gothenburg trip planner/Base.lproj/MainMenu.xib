@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSMenuItem">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <customObject id="Voe-Tx-rLC" customClass="tripAppDelegate"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="aBW-sr-D7u" customClass="IPMenulet">
+            <connections>
+                <outlet property="theMenu" destination="rOl-Hf-be8" id="a1b-eU-QZL"/>
+            </connections>
+        </customObject>
+        <menu id="rOl-Hf-be8">
+            <items>
+                <menuItem title="External IP" id="hL6-4J-Mj2">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+            </items>
+        </menu>
+    </objects>
+</document>

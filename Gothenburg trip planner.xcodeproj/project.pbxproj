@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08F4DCE56D1643B0852860B8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B51114A60E4E5C8807768D /* libPods.a */; };
+		DC11EA871989648F00A0BAB7 /* CustomWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DC11EA861989648F00A0BAB7 /* CustomWindow.m */; };
+		DC26923319880E1700CE3BBB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC26923219880E1700CE3BBB /* Cocoa.framework */; };
+		DC26923D19880E1700CE3BBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC26923B19880E1700CE3BBB /* InfoPlist.strings */; };
+		DC26923F19880E1700CE3BBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC26923E19880E1700CE3BBB /* main.m */; };
+		DC26924319880E1700CE3BBB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DC26924119880E1700CE3BBB /* Credits.rtf */; };
+		DC26924619880E1700CE3BBB /* tripAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC26924519880E1700CE3BBB /* tripAppDelegate.m */; };
+		DC26924919880E1700CE3BBB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC26924719880E1700CE3BBB /* MainMenu.xib */; };
+		DC26925219880E1800CE3BBB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC26925119880E1800CE3BBB /* XCTest.framework */; };
+		DC26925319880E1800CE3BBB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC26923219880E1700CE3BBB /* Cocoa.framework */; };
+		DC26925B19880E1800CE3BBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC26925919880E1800CE3BBB /* InfoPlist.strings */; };
+		DC26925D19880E1800CE3BBB /* Gothenburg_trip_plannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC26925C19880E1800CE3BBB /* Gothenburg_trip_plannerTests.m */; };
+		DC2692681988113F00CE3BBB /* IPMenulet.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2692671988113F00CE3BBB /* IPMenulet.m */; };
+		DC525DDA198A486400889921 /* SearchTripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC525DD8198A486400889921 /* SearchTripViewController.m */; };
+		DC525DDB198A486400889921 /* SearchTripViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC525DD9198A486400889921 /* SearchTripViewController.xib */; };
+		DC525DDE198A735800889921 /* RESTService.m in Sources */ = {isa = PBXBuildFile; fileRef = DC525DDD198A735800889921 /* RESTService.m */; };
+		DCA7E2F4198C064900645B5B /* TimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA7E2F3198C064900645B5B /* TimeUtil.m */; };
+		DCA7E2F7198C37DD00645B5B /* DepartureBoardRow.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA7E2F6198C37DD00645B5B /* DepartureBoardRow.m */; };
+		DCA7E2FD198D57A600645B5B /* RSVerticallyCenteredTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA7E2FC198D57A600645B5B /* RSVerticallyCenteredTextFieldCell.m */; };
+		DCA7E300198E64BD00645B5B /* RowView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA7E2FF198E64BD00645B5B /* RowView.m */; };
+		DCA7E303198E862900645B5B /* MAAttachedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA7E302198E862900645B5B /* MAAttachedWindow.m */; };
+		DCA7E307198E998100645B5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA7E306198E998100645B5B /* Images.xcassets */; };
+		DCD6C5ED198A7F52004B5E28 /* StopLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD6C5EC198A7F52004B5E28 /* StopLocation.m */; };
+		DCD6C5F0198AA475004B5E28 /* Departure.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD6C5EF198AA475004B5E28 /* Departure.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC26925419880E1800CE3BBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC26922719880E1700CE3BBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC26922E19880E1700CE3BBB;
+			remoteInfo = "Gothenburg trip planner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17F2F3EAB85F4C7AAFC3B55E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		D7B51114A60E4E5C8807768D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC11EA851989648F00A0BAB7 /* CustomWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomWindow.h; path = ../CustomWindow.h; sourceTree = "<group>"; };
+		DC11EA861989648F00A0BAB7 /* CustomWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomWindow.m; path = ../CustomWindow.m; sourceTree = "<group>"; };
+		DC26922F19880E1700CE3BBB /* Gothenburg trip planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gothenburg trip planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC26923219880E1700CE3BBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DC26923519880E1700CE3BBB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DC26923619880E1700CE3BBB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DC26923719880E1700CE3BBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC26923A19880E1700CE3BBB /* Gothenburg trip planner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gothenburg trip planner-Info.plist"; sourceTree = "<group>"; };
+		DC26923C19880E1700CE3BBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC26923E19880E1700CE3BBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC26924019880E1700CE3BBB /* Gothenburg trip planner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gothenburg trip planner-Prefix.pch"; sourceTree = "<group>"; };
+		DC26924219880E1700CE3BBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DC26924419880E1700CE3BBB /* tripAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tripAppDelegate.h; sourceTree = "<group>"; };
+		DC26924519880E1700CE3BBB /* tripAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tripAppDelegate.m; sourceTree = "<group>"; };
+		DC26924819880E1700CE3BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DC26925019880E1800CE3BBB /* Gothenburg trip plannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gothenburg trip plannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC26925119880E1800CE3BBB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DC26925819880E1800CE3BBB /* Gothenburg trip plannerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gothenburg trip plannerTests-Info.plist"; sourceTree = "<group>"; };
+		DC26925A19880E1800CE3BBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC26925C19880E1800CE3BBB /* Gothenburg_trip_plannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gothenburg_trip_plannerTests.m; sourceTree = "<group>"; };
+		DC2692661988113F00CE3BBB /* IPMenulet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPMenulet.h; sourceTree = "<group>"; };
+		DC2692671988113F00CE3BBB /* IPMenulet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPMenulet.m; sourceTree = "<group>"; };
+		DC525DD7198A486400889921 /* SearchTripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTripViewController.h; sourceTree = "<group>"; };
+		DC525DD8198A486400889921 /* SearchTripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTripViewController.m; sourceTree = "<group>"; };
+		DC525DD9198A486400889921 /* SearchTripViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchTripViewController.xib; sourceTree = "<group>"; };
+		DC525DDC198A735800889921 /* RESTService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESTService.h; sourceTree = "<group>"; };
+		DC525DDD198A735800889921 /* RESTService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESTService.m; sourceTree = "<group>"; };
+		DCA7E2F2198C064900645B5B /* TimeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeUtil.h; sourceTree = "<group>"; };
+		DCA7E2F3198C064900645B5B /* TimeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeUtil.m; sourceTree = "<group>"; };
+		DCA7E2F5198C37DD00645B5B /* DepartureBoardRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartureBoardRow.h; sourceTree = "<group>"; };
+		DCA7E2F6198C37DD00645B5B /* DepartureBoardRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartureBoardRow.m; sourceTree = "<group>"; };
+		DCA7E2FB198D57A600645B5B /* RSVerticallyCenteredTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSVerticallyCenteredTextFieldCell.h; sourceTree = "<group>"; };
+		DCA7E2FC198D57A600645B5B /* RSVerticallyCenteredTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSVerticallyCenteredTextFieldCell.m; sourceTree = "<group>"; };
+		DCA7E2FE198E64BD00645B5B /* RowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowView.h; sourceTree = "<group>"; };
+		DCA7E2FF198E64BD00645B5B /* RowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowView.m; sourceTree = "<group>"; };
+		DCA7E301198E862900645B5B /* MAAttachedWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAttachedWindow.h; sourceTree = "<group>"; };
+		DCA7E302198E862900645B5B /* MAAttachedWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAttachedWindow.m; sourceTree = "<group>"; };
+		DCA7E306198E998100645B5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCD6C5EB198A7F52004B5E28 /* StopLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopLocation.h; sourceTree = "<group>"; };
+		DCD6C5EC198A7F52004B5E28 /* StopLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopLocation.m; sourceTree = "<group>"; };
+		DCD6C5EE198AA475004B5E28 /* Departure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Departure.h; sourceTree = "<group>"; };
+		DCD6C5EF198AA475004B5E28 /* Departure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Departure.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC26922C19880E1700CE3BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC26923319880E1700CE3BBB /* Cocoa.framework in Frameworks */,
+				08F4DCE56D1643B0852860B8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC26924D19880E1800CE3BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC26925319880E1800CE3BBB /* Cocoa.framework in Frameworks */,
+				DC26925219880E1800CE3BBB /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC26922619880E1700CE3BBB = {
+			isa = PBXGroup;
+			children = (
+				DC26923819880E1700CE3BBB /* Gothenburg trip planner */,
+				DC26925619880E1800CE3BBB /* Gothenburg trip plannerTests */,
+				DC26923119880E1700CE3BBB /* Frameworks */,
+				DC26923019880E1700CE3BBB /* Products */,
+				17F2F3EAB85F4C7AAFC3B55E /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		DC26923019880E1700CE3BBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC26922F19880E1700CE3BBB /* Gothenburg trip planner.app */,
+				DC26925019880E1800CE3BBB /* Gothenburg trip plannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC26923119880E1700CE3BBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC26923219880E1700CE3BBB /* Cocoa.framework */,
+				DC26925119880E1800CE3BBB /* XCTest.framework */,
+				DC26923419880E1700CE3BBB /* Other Frameworks */,
+				D7B51114A60E4E5C8807768D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC26923419880E1700CE3BBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC26923519880E1700CE3BBB /* AppKit.framework */,
+				DC26923619880E1700CE3BBB /* CoreData.framework */,
+				DC26923719880E1700CE3BBB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DC26923819880E1700CE3BBB /* Gothenburg trip planner */ = {
+			isa = PBXGroup;
+			children = (
+				DC11EA851989648F00A0BAB7 /* CustomWindow.h */,
+				DC11EA861989648F00A0BAB7 /* CustomWindow.m */,
+				DC26924419880E1700CE3BBB /* tripAppDelegate.h */,
+				DC26924519880E1700CE3BBB /* tripAppDelegate.m */,
+				DC26924719880E1700CE3BBB /* MainMenu.xib */,
+				DCA7E306198E998100645B5B /* Images.xcassets */,
+				DC26923919880E1700CE3BBB /* Supporting Files */,
+				DC2692661988113F00CE3BBB /* IPMenulet.h */,
+				DC2692671988113F00CE3BBB /* IPMenulet.m */,
+				DC525DD7198A486400889921 /* SearchTripViewController.h */,
+				DC525DD8198A486400889921 /* SearchTripViewController.m */,
+				DC525DD9198A486400889921 /* SearchTripViewController.xib */,
+				DCA7E2FE198E64BD00645B5B /* RowView.h */,
+				DCA7E2FF198E64BD00645B5B /* RowView.m */,
+				DC525DDC198A735800889921 /* RESTService.h */,
+				DC525DDD198A735800889921 /* RESTService.m */,
+				DCD6C5EB198A7F52004B5E28 /* StopLocation.h */,
+				DCD6C5EC198A7F52004B5E28 /* StopLocation.m */,
+				DCA7E2F5198C37DD00645B5B /* DepartureBoardRow.h */,
+				DCA7E2F6198C37DD00645B5B /* DepartureBoardRow.m */,
+				DCD6C5EE198AA475004B5E28 /* Departure.h */,
+				DCD6C5EF198AA475004B5E28 /* Departure.m */,
+				DCA7E2F2198C064900645B5B /* TimeUtil.h */,
+				DCA7E2F3198C064900645B5B /* TimeUtil.m */,
+			);
+			path = "Gothenburg trip planner";
+			sourceTree = "<group>";
+		};
+		DC26923919880E1700CE3BBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCA7E301198E862900645B5B /* MAAttachedWindow.h */,
+				DCA7E302198E862900645B5B /* MAAttachedWindow.m */,
+				DCA7E2FB198D57A600645B5B /* RSVerticallyCenteredTextFieldCell.h */,
+				DCA7E2FC198D57A600645B5B /* RSVerticallyCenteredTextFieldCell.m */,
+				DC26923A19880E1700CE3BBB /* Gothenburg trip planner-Info.plist */,
+				DC26923B19880E1700CE3BBB /* InfoPlist.strings */,
+				DC26923E19880E1700CE3BBB /* main.m */,
+				DC26924019880E1700CE3BBB /* Gothenburg trip planner-Prefix.pch */,
+				DC26924119880E1700CE3BBB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC26925619880E1800CE3BBB /* Gothenburg trip plannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC26925C19880E1800CE3BBB /* Gothenburg_trip_plannerTests.m */,
+				DC26925719880E1800CE3BBB /* Supporting Files */,
+			);
+			path = "Gothenburg trip plannerTests";
+			sourceTree = "<group>";
+		};
+		DC26925719880E1800CE3BBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC26925819880E1800CE3BBB /* Gothenburg trip plannerTests-Info.plist */,
+				DC26925919880E1800CE3BBB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC26922E19880E1700CE3BBB /* Gothenburg trip planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC26926019880E1800CE3BBB /* Build configuration list for PBXNativeTarget "Gothenburg trip planner" */;
+			buildPhases = (
+				A1615E9D11A74838A2C5FF1F /* Check Pods Manifest.lock */,
+				DC26922B19880E1700CE3BBB /* Sources */,
+				DC26922C19880E1700CE3BBB /* Frameworks */,
+				DC26922D19880E1700CE3BBB /* Resources */,
+				ADFFE0A4143D41F8B6ADCFD5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gothenburg trip planner";
+			productName = "Gothenburg trip planner";
+			productReference = DC26922F19880E1700CE3BBB /* Gothenburg trip planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC26924F19880E1800CE3BBB /* Gothenburg trip plannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC26926319880E1800CE3BBB /* Build configuration list for PBXNativeTarget "Gothenburg trip plannerTests" */;
+			buildPhases = (
+				DC26924C19880E1800CE3BBB /* Sources */,
+				DC26924D19880E1800CE3BBB /* Frameworks */,
+				DC26924E19880E1800CE3BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC26925519880E1800CE3BBB /* PBXTargetDependency */,
+			);
+			name = "Gothenburg trip plannerTests";
+			productName = "Gothenburg trip plannerTests";
+			productReference = DC26925019880E1800CE3BBB /* Gothenburg trip plannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC26922719880E1700CE3BBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = trip;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Tobias;
+				TargetAttributes = {
+					DC26922E19880E1700CE3BBB = {
+						DevelopmentTeam = 4ER4R9BNZH;
+					};
+					DC26924F19880E1800CE3BBB = {
+						TestTargetID = DC26922E19880E1700CE3BBB;
+					};
+				};
+			};
+			buildConfigurationList = DC26922A19880E1700CE3BBB /* Build configuration list for PBXProject "Gothenburg trip planner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC26922619880E1700CE3BBB;
+			productRefGroup = DC26923019880E1700CE3BBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC26922E19880E1700CE3BBB /* Gothenburg trip planner */,
+				DC26924F19880E1800CE3BBB /* Gothenburg trip plannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC26922D19880E1700CE3BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC26923D19880E1700CE3BBB /* InfoPlist.strings in Resources */,
+				DCA7E307198E998100645B5B /* Images.xcassets in Resources */,
+				DC525DDB198A486400889921 /* SearchTripViewController.xib in Resources */,
+				DC26924319880E1700CE3BBB /* Credits.rtf in Resources */,
+				DC26924919880E1700CE3BBB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC26924E19880E1800CE3BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC26925B19880E1800CE3BBB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1615E9D11A74838A2C5FF1F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADFFE0A4143D41F8B6ADCFD5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC26922B19880E1700CE3BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA7E2F7198C37DD00645B5B /* DepartureBoardRow.m in Sources */,
+				DC525DDA198A486400889921 /* SearchTripViewController.m in Sources */,
+				DC11EA871989648F00A0BAB7 /* CustomWindow.m in Sources */,
+				DCD6C5F0198AA475004B5E28 /* Departure.m in Sources */,
+				DC26923F19880E1700CE3BBB /* main.m in Sources */,
+				DCA7E303198E862900645B5B /* MAAttachedWindow.m in Sources */,
+				DC525DDE198A735800889921 /* RESTService.m in Sources */,
+				DCA7E300198E64BD00645B5B /* RowView.m in Sources */,
+				DCA7E2F4198C064900645B5B /* TimeUtil.m in Sources */,
+				DC26924619880E1700CE3BBB /* tripAppDelegate.m in Sources */,
+				DCA7E2FD198D57A600645B5B /* RSVerticallyCenteredTextFieldCell.m in Sources */,
+				DCD6C5ED198A7F52004B5E28 /* StopLocation.m in Sources */,
+				DC2692681988113F00CE3BBB /* IPMenulet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC26924C19880E1800CE3BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC26925D19880E1800CE3BBB /* Gothenburg_trip_plannerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC26925519880E1800CE3BBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC26922E19880E1700CE3BBB /* Gothenburg trip planner */;
+			targetProxy = DC26925419880E1800CE3BBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC26923B19880E1700CE3BBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC26923C19880E1700CE3BBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC26924119880E1700CE3BBB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC26924219880E1700CE3BBB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DC26924719880E1700CE3BBB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC26924819880E1700CE3BBB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		DC26925919880E1800CE3BBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC26925A19880E1800CE3BBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC26925E19880E1800CE3BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DC26925F19880E1800CE3BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DC26926119880E1800CE3BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F2F3EAB85F4C7AAFC3B55E /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Tobias Raski (4ER4R9BNZH)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gothenburg trip planner/Gothenburg trip planner-Prefix.pch";
+				INFOPLIST_FILE = "Gothenburg trip planner/Gothenburg trip planner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC26926219880E1800CE3BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F2F3EAB85F4C7AAFC3B55E /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Tobias Raski (4ER4R9BNZH)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gothenburg trip planner/Gothenburg trip planner-Prefix.pch";
+				INFOPLIST_FILE = "Gothenburg trip planner/Gothenburg trip planner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC26926419880E1800CE3BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gothenburg trip planner.app/Contents/MacOS/Gothenburg trip planner";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gothenburg trip planner/Gothenburg trip planner-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Gothenburg trip plannerTests/Gothenburg trip plannerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DC26926519880E1800CE3BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gothenburg trip planner.app/Contents/MacOS/Gothenburg trip planner";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gothenburg trip planner/Gothenburg trip planner-Prefix.pch";
+				INFOPLIST_FILE = "Gothenburg trip plannerTests/Gothenburg trip plannerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC26922A19880E1700CE3BBB /* Build configuration list for PBXProject "Gothenburg trip planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC26925E19880E1800CE3BBB /* Debug */,
+				DC26925F19880E1800CE3BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC26926019880E1800CE3BBB /* Build configuration list for PBXNativeTarget "Gothenburg trip planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC26926119880E1800CE3BBB /* Debug */,
+				DC26926219880E1800CE3BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC26926319880E1800CE3BBB /* Build configuration list for PBXNativeTarget "Gothenburg trip plannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC26926419880E1800CE3BBB /* Debug */,
+				DC26926519880E1800CE3BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC26922719880E1700CE3BBB /* Project object */;
+}

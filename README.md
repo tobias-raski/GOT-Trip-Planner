@@ -1,4 +1,4 @@
 GOT-Trip-Planner
 ================
 
-A transit application for public transportation in Gothenburg.  
+A menubar OS X application that provides transit information for public transportations in Gothenburg.  
